@@ -133,7 +133,7 @@ function Nav() {
         <a href="#hero" className="nav__logo" aria-label="Back to top">
           ML<span className="nav__logo-dot">.</span>
         </a>
-        <ul className="nav__links" role="list">
+        <ul className="nav__links">
           {NAV_LINKS.map(({ href, label }) => (
             <li key={href}>
               <a
@@ -303,7 +303,7 @@ function Experience() {
                 </div>
               </button>
               {open === i && (
-                <ul className="exp__bullets" role="list">
+                <ul className="exp__bullets">
                   {item.bullets.map((b, j) => (
                     <li key={j}>{b}</li>
                   ))}
