@@ -84,6 +84,17 @@ const PROJECTS = [
     github: 'https://github.com/makiya32',
     type: 'Personal Project',
   },
+  {
+    name: 'UCM',
+    tagline: 'Utility Construction Management company website',
+    description:
+      'A professional website for Utility Construction Management, a small drilling and utility construction business. Built to showcase services, establish credibility, and give potential clients a clear way to get in touch.',
+    role: 'Front-End Developer — sole developer, designed and built the full site for the client.',
+    tech: ['React', 'JavaScript', 'Bluehost'],
+    live: 'https://ucmrl.com/',
+    github: 'https://github.com/makiya32',
+    type: 'Client Project',
+  },
 ];
 
 function useActiveSection() {
@@ -183,7 +194,7 @@ function Hero() {
         <div className="hero__content">
           <p className="hero__greeting">Hi, I'm</p>
           <h1 className="hero__name">Makiya<br />Laurenza</h1>
-          <p className="hero__title">Full-Stack Developer</p>
+          <p className="hero__title">Recent Computer Science Graduate</p>
           <p className="hero__sub">
             Building thoughtful digital experiences at the intersection of design and engineering. Based in New York, NY.
           </p>
@@ -195,7 +206,11 @@ function Hero() {
         <div className="hero__decoration" aria-hidden="true">
           <div className="hero__blob hero__blob--1" />
           <div className="hero__blob hero__blob--2" />
-          <div className="hero__initials">ML</div>
+          <img
+            src="/brand-photo.png"
+            alt=""
+            className="hero__brand-photo"
+          />
         </div>
       </div>
       <div className="hero__scroll-hint" aria-hidden="true">
@@ -215,7 +230,7 @@ function About() {
         <div className="about__grid">
           <div className="about__text">
             <p>
-            I'm a recent Computer Science graduate from Hunter College looking to grow into a career I love. I'm currently drawn toward product design and product management roles.
+            I'm a recent Computer Science graduate from Hunter College looking to grow into a career I love. I'm currently drawn toward technical product design and product management roles.
             </p>
             <p>
             During my time as an undergrad, I made the most of every opportunity in front of me. I became a Teaching Assistant in my sophomore year, joined clubs and rose to Vice President of the Women in Computer Science Club, and helped lead the first-ever hackathon at my school. That experience taught me how to negotiate sponsorships, market an event, communicate across teams, and make fast decisions under pressure. 
