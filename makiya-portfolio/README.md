@@ -38,7 +38,10 @@ Runs at `http://localhost:3000`
 2. Go to [vercel.com](https://vercel.com) → **Add New Project**
 3. Import your GitHub repo
 4. Framework preset: **Create React App** (auto-detected)
-5. Click **Deploy** — done!
+5. **Important:** this repo keeps the app in the `makiya-portfolio` folder. Either:
+   - Set **Root Directory** to `makiya-portfolio` in Vercel project settings, or
+   - Use the root `vercel.json` in this repo (already configured)
+6. Click **Deploy** — done!
 
 Vercel auto-deploys on every push to `main`.
 

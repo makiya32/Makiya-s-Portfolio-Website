@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install --prefix makiya-portfolio",
+  "buildCommand": "npm run build --prefix makiya-portfolio",
+  "outputDirectory": "makiya-portfolio/build",
+  "framework": "create-react-app"
+}
